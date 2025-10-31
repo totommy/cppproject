@@ -124,7 +124,7 @@ int main(void) {
     });
 
     std::cout << "Server listening on port 8080...\n";
-    svr.listen("localhost", 8080);
+    svr.listen("0.0.0.0", 8080);
 
     return 0;
 }
