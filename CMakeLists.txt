@@ -1,5 +1,5 @@
-cmake_minimum_required(VERSION 4.1.1)
-project(DockerTest)
+cmake_minimum_required(VERSION 3.8.1)
+project(cppproject)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
