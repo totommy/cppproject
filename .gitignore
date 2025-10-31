@@ -1,0 +1,30 @@
+
+---
+
+## 🧹 二、`.gitignore`
+```gitignore
+# CMake + Ninja build files
+/build/
+/out/
+/bin/
+/obj/
+/CMakeFiles/
+/CMakeCache.txt
+*.ninja
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.lib
+*.pdb
+*.log
+
+# VSCode project files
+.vscode/
+*.code-workspace
+
+# OS specific files
+.DS_Store
+Thumbs.db
